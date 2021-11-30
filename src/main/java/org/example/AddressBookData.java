@@ -14,6 +14,7 @@ public class AddressBookData {
         this.zipCode = zipCode;
         this.mobileNumber = mobileNumber;
     }
+
     public String getFirstName() {
         return firstName;
     }
@@ -62,6 +63,9 @@ public class AddressBookData {
         this.city = city;
     }
 
+    public AddressBookData() {
+    }
+
     public long getMobileNumber() {
         return mobileNumber;
     }
@@ -82,5 +86,4 @@ public class AddressBookData {
     public String toString(){
         return "AddressBook{" + "firstName='" + firstName + '\'' + ", lastName='" + lastName + '\'' + ", address='" + address + '\'' + ", city='" + city + '\'' + ",state='" + state + '\'' +  ",eMail='" + eMail + '\'' + ", zipCode=" + zipCode + ",mobileNumber='" + mobileNumber + '}';
     }
-
 }
